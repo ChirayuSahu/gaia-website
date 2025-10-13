@@ -13,14 +13,14 @@ const HeroHome = () => {
                     <div className='text-left space-y-6 px-4 max-w-6xl m-4'>
                         <div>
                             <h1 className='text-5xl sm:text-7xl font-black uppercase text-white mb-2'>Gaia The Earth<br />Foundation</h1>
-                            <p className='text-xl sm:text-2xl text-gray-200 mb-2'>regenrating earth, one step at a time.</p>
+                            <p className='text-xl sm:text-2xl text-gray-200 mb-2'>regenerating earth, one step at a time.</p>
                         </div>
                         <p className='text-md sm:text-lg text-gray-200 font-light max-w-2xl'>At GAIA The Earth Foundation, we work to restore ecosystems, reduce waste, and rebuild harmony between people and the planet.</p>
                         <div className='flex flex-col sm:flex-row gap-4 justify-start'>
                             <Link href="/get-started" passHref>
                                 <Button size={"lg"} className="w-full sm:w-auto text-md active:scale-97 hover:scale-102 transition-transform duration-300 text-green-700 rounded-full">Explore Our Work</Button>
                             </Link>
-                            <Link href="/get-started" passHref>
+                            <Link href="https://pages.razorpay.com/pl_JpbzBiBSVBx3S7/view" target='_blank' passHref>
                                 <Button size={"lg"} className="w-full sm:w-auto text-md active:scale-97 hover:scale-102 transition-transform duration-300 text-green-700 rounded-full">Donate Now</Button>
                             </Link>
                         </div>
