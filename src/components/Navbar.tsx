@@ -58,7 +58,7 @@ export default function Navbar() {
     const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
     return (
-        <nav className="fixed z-50 w-full bg-white">
+        <nav className="fixed z-50 w-full bg-white border-b-1 border-green-700">
             <div className="px-4 sm:px-6 lg:px-8 xl:px-20 text-green-700">
                 <div className="flex justify-between h-16 items-center">
                     <div className="flex items-center">

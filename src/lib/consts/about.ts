@@ -18,10 +18,20 @@ generation that understands its responsibility toward the planet — and has the
 creativity to protect it.`
     },
     {
-        title: "Regeration",
+        title: "Regeneration",
         content: `Beyond sustainability, GAIA stands for regeneration — restoring ecosystems, rebuilding
 balance, and renewing hope. Our projects focus on healing the Earth through reforestation,
 circular economy models, and conscious community efforts. Regeneration is our commitment to
 give back more than we take from the planet.`
     }
 ]
+
+export const prakritiText = `At the heart of **GAIA** lies **Project Prakriti** — our large-scale regenerative social forestry mission. Through Prakriti, we plant **hope** — one tree, one forest, one community at a time. The project not only combats **deforestation** and **climate change**, but also **revitalizes soil**, **restores biodiversity**, and **engages local communities** in protecting and nurturing their environment.
+
+&nbsp;
+
+Every sapling planted represents our commitment to move beyond sustainability — toward **regeneration**: giving back more than we take.
+`;
+
+
+
