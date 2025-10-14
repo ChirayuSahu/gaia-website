@@ -5,24 +5,33 @@ Through **awareness**, **engagement**, and **scalable impact**, GAIA strives to 
 export const cards = [
     {
         title: "Innovation",
+        image: "/about/innovation.webp",
         content: `GAIA drives innovation by blending technology, creativity, and collaboration to solve
 environmental challenges. From recycling models to green entrepreneurship, we turn ideas into
 impact. Each project reflects our belief that innovation is not just invention — it’s reimagining
-systems to work in harmony with nature.`
+systems to work in harmony with nature.`,
+        buttonText: "Invest in Innovation",
+        link: "https://aceindia.in/",
     },
     {
         title: "Youth",
+        image: "/about/youth.webp",
         content: `We believe young minds are catalysts of change. GAIA empowers youth through education,
 participation, and leadership in sustainability. By nurturing awareness and action, we build a
 generation that understands its responsibility toward the planet — and has the courage and
-creativity to protect it.`
+creativity to protect it.`,
+        buttonText: "Empower Youth",
+        link: "",
     },
     {
         title: "Regeneration",
+        image: "/about/regeneration.webp",
         content: `Beyond sustainability, GAIA stands for regeneration — restoring ecosystems, rebuilding
 balance, and renewing hope. Our projects focus on healing the Earth through reforestation,
 circular economy models, and conscious community efforts. Regeneration is our commitment to
-give back more than we take from the planet.`
+give back more than we take from the planet.`,
+        buttonText: "Support Regeneration",
+        link: "https://indiamun.org/",
     }
 ]
 
