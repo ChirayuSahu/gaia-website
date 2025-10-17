@@ -44,13 +44,23 @@ const navigationItems: MenuItem[] = [
         href: "/about"
     },
     {
-        label: "Benches for Change",
-        href: "/"
+        label: "Work with Us",
+        children: [
+            { label: "Openings", href: "/work-with-us" },
+        ]
     },
     {
-        label: "AceIndia",
-        href: "/"
-    }
+        label: "Contact Us",
+        href: "/contact-us"
+    },
+    // {
+    //     label: "Benches for Change",
+    //     href: "/"
+    // },
+    // {
+    //     label: "AceIndia",
+    //     href: "/"
+    // }
 ];
 
 export default function Navbar() {
@@ -179,9 +189,6 @@ export default function Navbar() {
                             </Link>
                         )
                     ))}
-                    <div className="pt-4">
-                        <Button className="w-full">Get Started</Button>
-                    </div>
                 </div>
             </div>
         </nav>
