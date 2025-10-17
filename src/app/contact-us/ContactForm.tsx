@@ -143,7 +143,7 @@ const ContactForm: React.FC = () => {
 
                 <div className="flex items-center gap-3">
                     <Button type="submit" disabled={submitting} className="w-full sm:w-auto text-md active:scale-97 hover:scale-102 transition-all duration-300 bg-green-700 hover:bg-green-600 hover:text-white text-white flex items-center rounded-full">
-                        {submitting ? 'Sending...' : 'Send message'}
+                        {submitting ? 'Sending...' : 'Submit'}
                     </Button>
 
                     {success && (
