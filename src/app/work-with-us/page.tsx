@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     description: "Join our team and help us shape the future.",
 };
 
-const page = () => {
+const WorkWithUsPage = () => {
     return (
         <div className='h-auto bg-white pt-25'>
             <div className='lg:max-w-5xl xl:max-w-7xl mx-auto px-6 sm:px-6 lg:px-8 space-y-10'>
@@ -67,4 +67,4 @@ const page = () => {
     )
 }
 
-export default page
+export default WorkWithUsPage;
